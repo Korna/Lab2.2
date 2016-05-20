@@ -5,7 +5,6 @@ int funccalc(float a, float b, float c) {
 	float x, x2, d;
 	d = b * b - 4 * a * c;
 	if (d > 0) {
-	ERRORsd123213ssdsdsd
 		x = (-1 * b + sqrt(d)) / (2 * a);
 		x2 = (-1 * b - sqrt(d)) / (2 * a);
 		printf("X1:%f\tX2%f\n", x, x2);
