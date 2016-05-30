@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void main() {
+int main() {
 	float a, b, c;
 	printf("Input a:\n");
 	scanf("%f", &a);
@@ -12,4 +12,5 @@ void main() {
 	funccalc(a, b, c);
 	getchar();
 	getchar();
+	return 1;
 }
