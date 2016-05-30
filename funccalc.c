@@ -14,7 +14,7 @@ int funccalc(float a, float b, float c) {
 		x = (-1 * b + sqrt(d)) / (2 * a);
 		printf("X1:%f\n", x);
 		return 1;
-	{
+	}
 	if ( a == 0) {
 		x = -1 * c / b;
 		printf("X1:%f\n", x);
